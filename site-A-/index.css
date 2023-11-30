@@ -1,0 +1,601 @@
+/* header  */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    font-family: 'Poppins', sans-serif;
+
+ 
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+
+.main-container{
+    width:1980px;
+    max-height:1078px;
+}
+.header{
+    height: 120px;
+    width:100%;
+    
+}
+.header_logo{
+   
+    margin-left:120px;
+    margin-right: auto;
+    color: #000;
+    font-family: Poppins;
+    width: 100px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+
+}
+
+.header_item a {
+    color:#000000;
+    
+}
+
+
+
+.header_item a:active{
+    color:grey;
+}
+
+
+.container{
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+
+
+
+/* .header_btm{
+    margin-right:120px;
+} */
+
+
+
+.header_list{
+    display: flex;
+}
+
+.header_item:not(:last-child) {
+    margin-right: 40px;
+}
+.header_btm{
+    padding: 11px 35px;
+    border: 2px solid #2B4DFF;
+    border-radius: 30px;
+    margin-right: 120px;
+    margin-left:100px; 
+    color:black;
+
+}
+
+
+
+
+/* .header_item a {
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+
+
+} */
+
+/* .header_btm:hover{
+    color:#000000;
+    border: 2px solid #000000;
+    transition: 0.4s;
+  
+} */
+
+
+/* Btn styles -------------->*/
+
+/* .header_btm:active{
+    color:grey;
+    border: grey;
+} */
+
+/* .btn-yellow a:active {
+    background: linear-gradient(to left, red, yellow, limegreen);
+} */
+
+
+img{
+    display: block;
+    background-repeat: no-repeat;
+  
+}
+/* ------------------------- */
+
+/* Roman's sample */
+/* .section_hero{
+    background: url(img/Rectangle\ 81.svg)center;
+    padding-top: 220px;
+    padding-bottom: 280px;
+}
+.container_hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section_hero_heading{
+    margin-bottom: 40px;
+}
+.section_hero_descrption{
+    text-align: center;
+    width: 830px;
+    color: white;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 35px;
+    word-wrap: break-word;
+    margin-bottom: 60px;
+} */
+
+
+
+/* *********************************************************** */
+/* adding  background image + content with positions-------------------> */
+
+
+
+.background-image-content  {
+    position: absolute; /* keeps text on image*/
+    width: 1420px; /* made it bigger , it was 1319*/
+    height: 239px;
+     box-sizing: content-box;
+    top: 229px;
+    left: 284px;
+    right:317px;
+   font-size: 70px;
+   line-height: 1.1;
+    font-weight:bold;
+    color:#DBFF00;
+    text-align: center;
+    letter-spacing: 0.2cm;
+    top:90px;
+
+
+    
+} 
+.background-paragraph{ 
+
+ display:inline-block;  /*n combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
+
+font-size: 25px; 
+ font-weight: 500;
+line-height: 39px;
+width: 851px;
+height:70px;
+letter-spacing: 0em;
+
+color:#FFFFFF;
+
+
+} 
+
+
+
+/* .background-paragraph{
+font-size: 25px;
+font-weight: 500;
+width: 851px;
+height:70px;
+color:#FFFFFF;
+
+} */
+
+.btn-yellow a{
+position: static; /* not necessary, here must be the problem*/
+padding: 11px 50px;
+width: 241px;
+height: 52px;
+ top: 1000px;
+left: 840px; 
+/* padding: 11px, , 11px, 50px; */ 
+border-radius: 30px;
+background-color: #DBFF00;
+
+
+}
+
+.btn-yellow  a {
+color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+
+letter-spacing: 0;
+
+}
+
+/* ****************************************** */
+/* ------------------------------>>>>>>>> */
+
+
+.linear-gradient{
+    line-height: 4;
+    text-align: center;
+    width:100%;
+    height:70px;
+    border: 2px solid #000;
+    margin-top: 0;
+    background: linear-gradient(90deg, #6100FF 0%, #FF0D0D 100%);
+}
+
+
+
+
+
+/* .container {
+  display: flex;
+  justify-content: center; /* Horizontally center the content 
+  align-items: center;  Vertically center the content 
+  height: 100vh; Optionally, set a height for the container */ 
+/*/* Selects the last child 
+parent-selector :nth-last-child(n) {
+    /* Styles for the selected element(s) 
+  }*/
+
+  
+
+
+
+/* .partners-links{
+    display: flex;
+   
+    align-items: center; 
+    padding: 32px 60px; 
+    height: 244px;
+    justify-content: space-around;
+    border: 1px solid black;
+    
+    
+} */
+
+
+
+
+/* ------------------> | Partners logos | */ 
+.partners-box {
+    display: flex;
+    padding: 32px 60px; 
+    height: 244px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 304px;
+    border: 2px solid black;
+    margin: auto;
+}
+.partners-links{
+   display: inline-flex;
+   width:100%;
+}
+.partners-links li{
+    margin: 0 auto;
+}
+
+
+
+
+ /* .partners-box ul li :not(:last-child) {
+    margin-left:200px;
+  
+}
+.partners-box ul li:not(:first-child) {
+    margin-left:200px;
+  
+} */
+
+
+ /* .partners-box ul li:first-child {
+   
+    margin-left: 304px;
+    margin-right: auto;
+}
+
+.partners-box ul li:last-child{
+    margin-right: 304px;
+    margin-left: auto;
+}  */
+
+
+.img-1{
+    width: 890px;
+    height: 768px;
+}
+.section_1{
+    display: flex;
+    border: 3px solid black;
+} 
+
+.section_2 {
+    padding-left: 84px;
+    margin-right: 120px;
+    margin-top: 60px;
+    width: 826px;
+    height: 442px;
+    
+   
+}
+.section_2_paragr_1
+{
+    color: #FF00A8;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.section_2 h2{
+    color: var(--blue, #2B4DFF);
+    font-family: Syne;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: capitalize; 
+    margin-bottom: 20px;
+}
+
+.section_2 div p {
+ color: #000;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.section_2 div p:not(:last-child){
+  
+    margin-bottom: 1em;
+
+}
+.section_2_btn button {
+    
+    margin-top: 50px;
+    border-radius: 30px;
+    background: var(--yellow, #DBFF00);
+    padding: 13px 40px;
+    height: 56px;
+    width: 196px;
+    
+}
+
+
+.section_2_btn img{
+    display: inline-flex;
+   flex-wrap: wrap;
+   
+
+}
+.section_2_btn button:active{
+    background: linear-gradient(to left, red, yellow, limegreen);
+}
+
+#hv-sec-2{
+    color: black;
+}
+
+
+
+/* new section */
+
+
+
+.section-3{
+    display: flex;
+
+
+}
+
+
+
+.part-1-section-3{
+    padding-top:30px;
+    margin-top: 20px;
+    margin-left: 120px;
+    line-height: 2;
+    
+}
+
+#section-3-flex-dollar {
+    display: flex;
+    gap:54px;
+    margin-top: 30px;
+    
+}
+
+.par-sec{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+}
+.section-3-paragraph-1-part-1{
+color: var(--pink, #FF1CB2);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+text-transform: uppercase;
+}
+
+
+.section-3-paragraph-2-part-1{
+margin-top: 10px;
+margin-bottom: 10px;
+
+color: var(--blue, #2B4DFF);
+font-family: Syne;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.double-part-1-style{
+color: var(--pink, #FF1CB2);
+font-family: Syne;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+
+}
+
+
+.btn-section-3-part-1{
+margin-top: 50px;
+display: inline-flex;
+padding: 13px 40px;
+justify-content: center;
+align-items: center;
+
+border-radius: 30px;
+background: var(--yellow, #DBFF00);
+}
+
+.btn-section-3-part-1:active{
+    background-color: linear-gradient(to left, red, yellow, limegreen);
+}
+
+.part-2-section-3{
+    
+    justify-self: flex-end;
+    margin-left: auto;
+   
+
+}
+
+
+
+/* section after real estate*/
+
+.section_nft{
+    background-color: #000;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left:200px;
+    padding-right: 215px;
+}
+
+.container_nft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img_nft{
+    margin-bottom: 90px;
+}
+.nft_description{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.heading_nft{
+    text-align: center;
+}
+
+.section_heading{
+    color: #2B4DFF;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.section_heading_description{
+    display: inline-block;
+    color: #FF1CB2;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-wrap: break-word;
+
+    margin-bottom: 20px;
+
+}
+
+.btm{
+    padding: 13px 40px;
+    background-color: #DBFF00;
+    border-radius: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media */
+/* @media not|only mediatype and (mediafeature and|or|not mediafeature) {
+  CSS-Code;
+}  
+In short, min-width is about styles for wider screens, and max-width is about styles for narrower screens.
+*/
+
+

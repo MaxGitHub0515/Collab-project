@@ -1,0 +1,354 @@
+
+
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header  */
+/* .header{
+    height: 120px;
+}
+.header_logo{
+    margin-right: auto;
+    margin-left: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1323px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+.header_btm{
+    margin-left: 100px;
+}
+.header_list{
+    display: flex;
+}
+
+.header_item:not(:last-child){
+    margin-right: 40px;
+}
+.header_btm{
+    padding: 11px 35px;
+    border: 1px solid #2B4DFF;
+    border-radius: 30px;
+} */
+
+
+
+/* section ecosystem */
+.section_ecosystem{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center; /* corrected my Max*/
+    align-items: center;
+    
+}
+.container_ecosystem{
+    text-align: center;
+   
+}
+.section_heading_description{
+    display: inline-block;
+    color: #FF1CB2;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-wrap: break-word;
+
+    margin-bottom: 20px;
+
+}
+.section_heading{
+    color: #2B4DFF;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+.section_descrption{
+    line-height: 30px;
+    margin-bottom: 60px;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word
+}
+/* .section_ecosystem_img{
+    
+} */
+
+/* section team  */
+.section_team{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #DBFF00;
+}
+.container_team{
+    width: 1396px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section_team_list{
+    display: flex;
+}
+.section_team_item:not(last-child){
+    margin-right: 30px;
+}
+.section_team_img{
+    margin-bottom: 10px;
+}
+.section_team_name{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    word-wrap: break-word;
+    line-height: 38px;
+}
+.section_team_description{
+    color: #2B4DFF;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 23px;
+}
+.section_team_icon{
+    background: url(img/Vector.svg);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* secction_roadmap */
+.section_roadmap{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #000;
+}
+.section_roadmap_descrption{
+    color: white;
+    margin-bottom: 78px;
+}
+.container_roadmap{
+    width: 1365px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center; 
+   
+}
+.weels_item{
+    display: inline-block;
+    width: 255px;
+    height: 255px;
+    background: url(img/Ellipse\ 1.svg);
+
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_wheels_list{
+    display: flex;
+    justify-content: space-between;
+}
+/* .section_wheels{
+
+} */
+.weels_item_last{
+    margin-right: 185px;
+}
+/* .weels_item:not(:last-child){
+    margin-right: 120px;
+} */
+.weels_first_item{
+    margin-left: 165px;
+}
+.wheels_first{
+    margin-bottom: 60px;
+}
+
+/* section join */
+.container_join{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.join_right_side{
+    margin-right: 175px;
+}
+.container_join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btm{
+    padding: 13px 40px;
+    background-color: #DBFF00;
+    border-radius: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.section_join{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section_join_icon{
+    margin-left: 5px;
+    display: inline-block;
+    background: url(img/Vector\ 41.png);
+    width: 30px;
+    height: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* footer */
+.footer{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.footer_big_footer{
+    display: flex;
+}
+.footer_small_footer{
+    margin: 0 60px ;
+    height: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_item:not(:last-child){
+    margin-right: 40px;
+}
+.footer_list{
+    display: flex;
+}
+.footer_left{
+    width: 25%;
+    padding: 97px 50px 100px 70px;
+    border: 1px solid #AFAFAF;
+    border-right: none;
+    line-height: 25px;
+}
+.footer_middle{
+    width: 25%;
+    padding: 67px 80px 63px 70px;
+    border: 1px solid #AFAFAF;
+    border-right: none;
+}
+.footer_right{
+    width: 50%;
+    padding: 67px 100px 75px 60px;
+    border: 1px solid #AFAFAF;
+}
+.footer_right_heading{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer_rignt_descrption{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.footer_middle_heading{
+    color: #2B4DFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    margin-bottom: 15px;
+
+}
+.footer_middle_second_heading{
+    display: block;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-bottom: 12px;
+}
+
+.footer_middle_topigs{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.footer_middle_description{
+    margin-bottom: 15px;
+
+}
+.footer_div_input{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.footer_input{
+    margin-right: 19px;
+    padding: 11px 20px;
+    width: 370px;
+    border-radius: 40px;
+    color: #AFAFAF;
+    border: 1px solid #AFAFAF;
+}
+.btm_input{
+    padding: 11px 25px;
+    border: 1px solid #AFAFAF;
+}
+.footer_input_description{
+    color: #444444; 
+    font-size: 14px;
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.small_footer_copyright{
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.footer_item{
+    font-size: 18px;
+    font-weight: 400;
+    word-wrap: break-word
+}
